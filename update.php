@@ -42,7 +42,7 @@ if (isset($_POST["submit"])){
         <form action="" method = "post" enctype="multipart/form-data">
         <div>
             <label for="id_cust"> ID Customer :  </label>
-            <input type="text" name="id_cust" id="id_cust" value="<?php echo $data_cust["ID_customer"]; ?>" disabled>
+            <input type="text" name="id_cust" id="id_cust" value="<?php echo $data_cust["ID_customer"]; ?>" readonly>
             <br>
             <small style="color: beige; font-size:medium">ID Customer tidak dapat diubah karena merupakan primary key.</small>
         </div>
