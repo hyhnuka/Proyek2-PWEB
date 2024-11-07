@@ -1,0 +1,143 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+/* Mengatur seluruh halaman */
+body {
+      /*display: flex; /* Menggunakan Flexbox untuk memusatkan konten */
+      height: 100vh; /* Mengatur tinggi body ke 100% dari viewport */
+      /* Menghilangkan margin default */
+      font-family: Arial, sans-serif; /* Font untuk tampilan yang lebih baik */
+      background-color: #34495e;/*Latar belakang halaman*/
+}
+
+.view{
+    background-color: #3e5b77; /* Warna latar belakang form */
+    padding: 90px; /* Padding di dalam form */
+    border-radius: 20px; /* Membuat sudut membulat */
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+/* Mengatur section customer */
+.customer {
+    /*max-width: 800px; /* Lebar maksimum untuk section */
+    /*margin-top: 0 auto; /* Memusatkan section di halaman */
+    padding: 20px; /* Padding di dalam section */
+    background-color: 34495e; /* Latar belakang section */
+    border-radius: 20px; /* Sudut membulat */
+    color:beige;   
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%; /* Tabel mengisi lebar container */
+    border-collapse: collapse; /* Menghapus ruang antara sel */
+    border: 3px solid #ded8d8;
+    font-size: 35px; 
+}
+
+/* Mengatur header tabel */
+th {
+    background-color: #041a2e; /* Warna latar belakang form */
+    color: rgb(1, 0, 0); /* Warna teks header */
+    padding: 25px; /* Padding di dalam sel header */
+    border: 4px solid #0b0a0a;
+    color:beige;   
+}
+
+/* Mengatur sel tabel */
+td {
+    padding: 10px; /* Padding di dalam sel */
+    border: 4px solid #0b0a0a; /* Garis batas sel */
+    text-align: center;
+    font-size: 25px;
+    background-color:#163957 ;
+    
+}
+
+/* Mengatur tombol */
+.btn {
+    display: inline-block; /* Membuat tombol inline block */
+    padding: 10px 15px; /* Padding dalam tombol */
+    margin: 5px; /* Jarak antar tombol */
+    background-color: #28a745; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    border-radius: 4px; /* Sudut membulat */
+    transition: background-color 0.3s; /* Efek transisi warna */
+    border-radius: 25px; /* Sudut membulat */
+
+}
+
+/* Mengatur efek saat hover pada tombol */
+.btn:hover {
+    background-color: #218838; /* Warna latar belakang saat hover */
+}
+
+/* Mengatur tombol delete */
+.btn.delete {
+    background-color: #dc3545; /* Warna latar belakang tombol delete */
+}
+
+.btn.delete:hover {
+    background-color: #ad212f; /* Warna latar belakang saat hover tombol delete */
+}
+
+/* Mengatur tombol update */
+.btn.update {
+    background-color: #007bff; /* Warna latar belakang tombol update */
+}
+
+.btn.update:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover tombol update */
+}
+
+/* Mengatur tombol ADD CUSTOMER agar berbentuk lingkaran */
+.btn_add  {
+    display: inline-block; /*Membuat tombol inline block*/
+    padding: 20px 20px; /* Padding dalam tombol */
+    margin: 5px; /* Jarak antar tombol */
+    background-color: #395571; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    border-radius: 4px; /* Sudut membulat */
+    transition: background-color 0.5s; /* Efek transisi warna */
+    font-size: 25px;
+}
+
+/* Mengatur efek saat hover pada tombol lingkaran */
+.btn_add:hover {
+    background-color: #2e4155; /* Warna latar belakang saat hover */
+}
+
+.btn_home  {
+    display: inline-block; /* Membuat tombol inline block */
+    padding: 20px 20px; /* Padding dalam tombol */
+    margin: 5px; /* Jarak antar tombol */
+    background-color: #395571; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    border-radius: 4px; /* Sudut membulat */
+    transition: background-color 0.5s; /* Efek transisi warna */
+    float: right;
+    font-size: 25px;
+}
+
+/* Mengatur efek saat hover pada tombol lingkaran */
+.btn_home:hover {
+    background-color: #202f3e; /* Warna latar belakang saat hover */
+    transition: 0.5s;
+}
+
+.unduh{
+    font-size: 22px;
+    border-radius: 4px; /* Sudut membulat */
+
+}
+.unduh a {
+    text-decoration: none; 
+    color: inherit; 
+}
